@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "summary": "can you make a monorepo in elm?",
+    "repository": "https://github.com/jschomay/elm-monorepo-test/tree/master/packages/monorepo-test1",
+    "license": "BSD3",
+    "source-directories": [
+        "."
+    ],
+    "exposed-modules": ["Main"],
+    "dependencies": {
+        "elm-lang/core": "5.0.0 <= v < 6.0.0",
+        "elm-lang/html": "2.0.0 <= v < 3.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}
